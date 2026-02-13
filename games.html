@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Games ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="games">
+
+<h1>Catch My Heart 💘</h1>
+
+<div id="heart" onclick="scorePoint()">❤️</div>
+<p>Score: <span id="score">0</span></p>
+
+<script>
+let score = 0;
+
+function scorePoint() {
+    score++;
+    document.getElementById("score").innerText = score;
+}
+</script>
+
+</body>
+</html>
