@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.vault, .wish, .letter, .gallery, .games {
+    background: linear-gradient(135deg, #ff4e8a, #ff8fab);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    color: #ff4e8a;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffe0eb;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-grid img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+#heart {
+    font-size: 60px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#heart:hover {
+    transform: scale(1.3);
+}
+s
